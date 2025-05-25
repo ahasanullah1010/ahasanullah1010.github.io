@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+  scroll-behavior: smooth;
+  color: #212529;
+  background-color: #ffffff;
+}
+
+/* Hero Section */
+#hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #ffffff;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #121212 !important;
+}
+.navbar-brand,
+.nav-link {
+  color: #ffffff !important;
+}
+.nav-link:hover {
+  color: #20c997 !important;
+}
+
+/* Section Headings */
+h2 {
+  color: #0d6efd;
+}
+
+/* Buttons */
+.btn-primary,
+.btn-outline-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  color: #fff;
+}
+.btn-outline-primary:hover {
+  background-color: #ffffff;
+  color: #0d6efd;
+  border-color: #0d6efd;
+}
+.btn-outline-light:hover {
+  background-color: #ffffff;
+  color: #121212;
+}
+
+/* Cards */
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Image Hover */
+#about img {
+  transition: transform 0.4s ease-in-out;
+}
+#about img:hover {
+  transform: scale(1.05);
+}
+
+/* Services Section Icons */
+.service-card i {
+  color: #20c997 !important;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #121212;
+  color: #ffffff;
+}
+#contact input,
+#contact textarea {
+  background-color: #ffffff;
+  color: #121212;
+}
+
+/* Footer */
+footer {
+  background-color: #000000;
+  color: #ffffff;
+}
+footer a {
+  color: #ffffff;
+}
+footer a:hover {
+  color: #20c997;
+}
+
+
+
+
+/* Button Hover */
+.btn-outline-primary, .btn-outline-light {
+  transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0d6efd;
+  color: white;
+  transform: scale(1.05);
+}
+
+.btn-outline-light:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.05);
+}
+
+
+
+.navbar {
+  animation: slideDown 0.8s ease-in-out;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.card:hover {
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
+}
